@@ -35,11 +35,13 @@ The script generates a plain text file named `quotes.txt`. Each quote is followe
 "Good friends, good books, and a sleepy conscience: this is the ideal life.","Mark Twain"
 "Time is a great teacher, but unfortunately it kills all its pupils.","Louis Hector Berlioz"
 
-```txt
-"Quote","Author"
-"The world is a book and those who do not travel read only one page.","Augustine of Hippo"
-"Good friends, good books, and a sleepy conscience: this is the ideal life.","Mark Twain"
-"Time is a great teacher, but unfortunately it kills all its pupils.","Louis Hector Berlioz
+txt output:
+
+Quote: The world is a book and those who do not travel read only one page. Author: Augustine of Hippo
+
+Quote: Good friends, good books, and a sleepy conscience: this is the ideal life. Author: Mark Twain
+
+Quote: Time is a great teacher, but unfortunately it kills all its pupils. Author: Louis Hector Berlioz
 
 
 
