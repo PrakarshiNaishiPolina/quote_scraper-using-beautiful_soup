@@ -23,7 +23,11 @@ This Python script is designed to scrape quotes from the website "Quotes to Scra
 ## How the Output Looks:
 
 ### CSV Output:  
-The script generates a CSV file named `quotes.csv`. The file will have two columns: one for the quote text and another for the author's name. Here’s an example of how the CSV will look:
+The script generates a CSV file named `quotes.csv`. The file will have two columns: one for the quote text and another for the author's name.
+
+
+### TXT Output:  
+The script generates a plain text file named `quotes.txt`. Each quote is followed by the author's name, separated by a newline.
 
 ```csv
 "Quote","Author"
@@ -31,21 +35,12 @@ The script generates a CSV file named `quotes.csv`. The file will have two colum
 "Good friends, good books, and a sleepy conscience: this is the ideal life.","Mark Twain"
 "Time is a great teacher, but unfortunately it kills all its pupils.","Louis Hector Berlioz"
 
-
-### CSV Output: 
-### TXT Output:
-
-The script generates a plain text file named `quotes.txt`. Each quote is followed by the author's name, separated by a newline. Here’s an example of how the TXT file will look:
-
 ```txt
+"Quote","Author"
+"The world is a book and those who do not travel read only one page.","Augustine of Hippo"
+"Good friends, good books, and a sleepy conscience: this is the ideal life.","Mark Twain"
+"Time is a great teacher, but unfortunately it kills all its pupils.","Louis Hector Berlioz
 
-Quote: The world is a book and those who do not travel read only one page.
-Author: Augustine of Hippo
 
-Quote: Good friends, good books, and a sleepy conscience: this is the ideal life.
-Author: Mark Twain
-
-Quote: Time is a great teacher, but unfortunately it kills all its pupils.
-Author: Louis Hector Berlioz
 
 
