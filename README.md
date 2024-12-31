@@ -31,7 +31,10 @@ The script generates a CSV file named `quotes.csv`. The file will have two colum
 "Good friends, good books, and a sleepy conscience: this is the ideal life.","Mark Twain"
 "Time is a great teacher, but unfortunately it kills all its pupils.","Louis Hector Berlioz"
 
-### TXT Output:  
+
+### CSV Output: 
+### TXT Output:
+
 The script generates a plain text file named `quotes.txt`. Each quote is followed by the author's name, separated by a newline. Here’s an example of how the TXT file will look:
 
 ```txt
