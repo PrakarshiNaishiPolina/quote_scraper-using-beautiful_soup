@@ -18,4 +18,31 @@ This Python script is designed to scrape quotes from the website "Quotes to Scra
 4. **Output the Data**:  
    After extracting all the quotes and authors, the script saves the data into two different formats:
    - **CSV file (`quotes.csv`)**: Each quote and its corresponding author are written into a CSV file. The first row contains headers, and subsequent rows contain the quote text and the author's name.
-   - **TXT file (`quotes.txt`)**: Each q
+   - **TXT file (`quotes.txt`)**: Each quote is followed by the author’s name, with each pair separated by a newline. This is saved as a plain text file.
+
+## How the Output Looks:
+
+### CSV Output:  
+The script generates a CSV file named `quotes.csv`. The file will have two columns: one for the quote text and another for the author's name. Here’s an example of how the CSV will look:
+
+```csv
+"Quote","Author"
+"The world is a book and those who do not travel read only one page.","Augustine of Hippo"
+"Good friends, good books, and a sleepy conscience: this is the ideal life.","Mark Twain"
+"Time is a great teacher, but unfortunately it kills all its pupils.","Louis Hector Berlioz"
+
+### TXT Output:  
+The script generates a plain text file named `quotes.txt`. Each quote is followed by the author's name, separated by a newline. Here’s an example of how the TXT file will look:
+
+```txt
+
+Quote: The world is a book and those who do not travel read only one page.
+Author: Augustine of Hippo
+
+Quote: Good friends, good books, and a sleepy conscience: this is the ideal life.
+Author: Mark Twain
+
+Quote: Time is a great teacher, but unfortunately it kills all its pupils.
+Author: Louis Hector Berlioz
+
+
